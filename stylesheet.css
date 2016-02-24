@@ -484,3 +484,51 @@ button{
     .centeralign{
         margin-left: 20%;
     }
+
+#lab-container { 
+  width: 91%; 
+  height: 90%;
+  overflow: hidden; margin: 4%;
+  border: solid 1px;
+  border-color: #E6E6E6 ;
+}
+
+/*.tiles{
+    width: 27%;
+    min-width: 100px;
+    margin: 3% ;
+    height: 200px;
+    background-color: #E6E6E6;
+    float: left;
+    margin-bottom: 80px;
+    text-align: center;
+}*/
+
+.tiles {
+    width: 28%;
+    float: left;
+    margin-right: 5px;
+    background-color: #202020;
+    height: 205px;
+    margin-left: 43px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.tiles p {
+    font-size: 13px;
+    color: #FFF;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 8px 5px;
+    line-height: 18px;
+}
+
+.tiles h2 {
+    width: 100%;
+    padding: 6px 0px;
+    font-size: 18px;
+    color: #f8f582;
+    border-bottom: #aba8a8;
+    border-bottom-style: groove;
+    border-bottom-width: 1px;
+    font-family: Helvetica, Arial, sans-serif;
+}
